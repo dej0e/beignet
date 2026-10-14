@@ -1,0 +1,303 @@
+{
+  "url": "https://www.youtube.com/watch?v=6XlMguO9r-M",
+  "category": "description_list",
+  "expected_ingest_stopped_at": "description",
+  "labeling_notes": "Extracted ingredients and amounts for Hyderabadi Chicken Biryani from the video description.",
+  "expected": {
+    "status": "ok",
+    "recipe": {
+      "title": "Hyderabadi Chicken Biryani",
+      "servings": 4,
+      "ingredients": [
+        {
+          "raw_text": "1kg chicken thighs (skin off, bone-in)",
+          "name": "chicken thighs",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "kg"
+          },
+          "preparation": "skin off, bone-in",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "200g Greek yogurt",
+          "name": "Greek yogurt",
+          "quantity": {
+            "min": 200,
+            "max": 200,
+            "unit": "g"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp Kashmiri chili powder",
+          "name": "Kashmiri chili powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp turmeric powder",
+          "name": "turmeric powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp garam masala",
+          "name": "garam masala",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp ginger paste",
+          "name": "ginger paste",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp garlic paste",
+          "name": "garlic paste",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Juice of 1 lemon",
+          "name": "lemon juice",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 green chilies, sliced",
+          "name": "green chilies",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "each"
+          },
+          "preparation": "sliced",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 cinnamon stick",
+          "name": "cinnamon stick",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "8 green cardamom pods, lightly crushed",
+          "name": "green cardamom pods",
+          "quantity": {
+            "min": 8,
+            "max": 8,
+            "unit": "each"
+          },
+          "preparation": "lightly crushed",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp cumin seeds",
+          "name": "cumin seeds",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "4 cloves",
+          "name": "cloves",
+          "quantity": {
+            "min": 4,
+            "max": 4,
+            "unit": "each"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1.5 tsp salt",
+          "name": "salt",
+          "quantity": {
+            "min": 1.5,
+            "max": 1.5,
+            "unit": "tsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/2 cup fresh mint leaves, roughly chopped",
+          "name": "fresh mint leaves",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup"
+          },
+          "preparation": "roughly chopped",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/2 cup fresh coriander (cilantro) leaves, roughly chopped",
+          "name": "fresh coriander leaves",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup"
+          },
+          "preparation": "roughly chopped",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/3 of the fried onions",
+          "name": "fried onions",
+          "quantity": {
+            "qualitative": "1/3 of prepared fried onions"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "500g aged basmati rice",
+          "name": "aged basmati rice",
+          "quantity": {
+            "min": 500,
+            "max": 500,
+            "unit": "g"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 large yellow onions, thinly sliced",
+          "name": "yellow onions",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each"
+          },
+          "preparation": "thinly sliced",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Vegetable oil for frying onions",
+          "name": "vegetable oil",
+          "quantity": {
+            "qualitative": "for frying"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "1/4 cup warm milk mixed with pinch of saffron threads",
+          "name": "saffron milk",
+          "quantity": {
+            "min": 0.25,
+            "max": 0.25,
+            "unit": "cup"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Dough seal: 1 cup flour + water",
+          "name": "flour and water dough",
+          "quantity": {
+            "qualitative": "for sealing pot"
+          },
+          "optional": true,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        }
+      ]
+    },
+    "missing": []
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "url": "https://www.youtube.com/watch?v=y1OOyhQ2DTo",
+  "category": "description_list",
+  "expected_ingest_stopped_at": "description",
+  "labeling_notes": "Description has full ingredient lists with amounts for both 30-minute and 3-hour versions of chicken biryani. Labeled from description, then verified against the video.",
+  "expected": {
+    "status": "ok",
+    "recipe": {
+      "title": "Authentic Chicken Biryani (30 Minute vs 3 Hour)",
+      "servings": null,
+      "ingredients": [
+        {
+          "raw_text": "2 tbsp Ghee",
+          "name": "ghee",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 large Onion",
+          "name": "onion",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each"
+          },
+          "preparation": "diced/sliced",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp Masala spices (I used Fadwa Masala)",
+          "name": "masala spices",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tbsp ginger",
+          "name": "ginger paste",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tbsp garlic paste",
+          "name": "garlic paste",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2-3lbs Chicken drums",
+          "name": "chicken drumsticks",
+          "quantity": {
+            "min": 2,
+            "max": 3,
+            "unit": "lb"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/2 cup fire roasted tomatoes",
+          "name": "fire roasted tomatoes",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/4 cup Yogurt",
+          "name": "yogurt",
+          "quantity": {
+            "min": 0.25,
+            "max": 0.25,
+            "unit": "cup"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 cups Basmati sella rice",
+          "name": "basmati sella rice",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "cup"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Salt to taste (depends on Masala)",
+          "name": "salt",
+          "quantity": {
+            "qualitative": "to taste"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "Cilantro , mint , lemon juice to garnish",
+          "name": "cilantro",
+          "quantity": {
+            "qualitative": "to garnish"
+          },
+          "optional": true,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "mint",
+          "name": "mint",
+          "quantity": {
+            "qualitative": "to garnish"
+          },
+          "optional": true,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "lemon juice",
+          "name": "lemon juice",
+          "quantity": {
+            "qualitative": "to garnish"
+          },
+          "optional": true,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        }
+      ]
+    },
+    "missing": []
+  }
+}

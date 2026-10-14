@@ -1,0 +1,239 @@
+{
+  "url": "https://www.youtube.com/watch?v=EY7jt2DKe38",
+  "category": "description_list",
+  "expected_ingest_stopped_at": "description",
+  "labeling_notes": "Extracted ingredients and amounts for the Lebanese Lemon Garlic Chicken (Al Aseel copycat) from the video description/recipe.",
+  "expected": {
+    "status": "ok",
+    "recipe": {
+      "title": "Lebanese Lemon Garlic Chicken (Al Aseel restaurant copycat)",
+      "servings": null,
+      "ingredients": [
+        {
+          "raw_text": "500g/ 1lb chicken tenderloin (or breast)",
+          "name": "chicken tenderloin",
+          "quantity": {
+            "min": 500,
+            "max": 500,
+            "unit": "g"
+          },
+          "preparation": "cut into 4cm / 1.5″ squares, large vein cut out",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "4 tbsp Greek or plain yogurt",
+          "name": "Greek yogurt",
+          "quantity": {
+            "min": 4,
+            "max": 4,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 tbsp lemon juice",
+          "name": "lemon juice",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp garlic, finely grated or crushed",
+          "name": "garlic",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "preparation": "finely grated or crushed",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp olive oil",
+          "name": "olive oil",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp cooking salt / kosher salt",
+          "name": "salt",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 cup Greek or plain yogurt",
+          "name": "Greek yogurt",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "cup"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3/4 tsp garlic, finely grated or crushed",
+          "name": "garlic",
+          "quantity": {
+            "min": 0.75,
+            "max": 0.75,
+            "unit": "tsp"
+          },
+          "preparation": "finely grated or crushed",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tbsp extra virgin olive oil",
+          "name": "extra virgin olive oil",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp lemon juice",
+          "name": "lemon juice",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp tahini (hulled)",
+          "name": "tahini",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp+ water",
+          "name": "water",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "1 tsp cooking salt / kosher salt",
+          "name": "salt",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tbsp olive oil, for cooking",
+          "name": "olive oil",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp"
+          },
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp parsley, roughly chopped",
+          "name": "parsley",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "preparation": "roughly chopped",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Lemon wedges and extra virgin olive oil, for garnish",
+          "name": "lemon wedges",
+          "quantity": {
+            "qualitative": "for garnish"
+          },
+          "optional": true,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "Lebanese bread for sauce mopping",
+          "name": "Lebanese bread",
+          "quantity": {
+            "qualitative": "to serve"
+          },
+          "optional": true,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        }
+      ]
+    },
+    "missing": []
+  }
+}

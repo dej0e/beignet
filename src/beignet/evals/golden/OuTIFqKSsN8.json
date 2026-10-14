@@ -1,0 +1,117 @@
+{
+  "url": "https://www.youtube.com/watch?v=OuTIFqKSsN8",
+  "category": "video_description",
+  "expected_ingest_stopped_at": "video_description",
+  "labeling_notes": "Ingredients extracted directly from the video description text on YouTube (Kyodokan channel). Organized into main protein and marinade sauce components with exact gram measurements.",
+  "expected": {
+    "status": "ok",
+    "recipe": {
+      "title": "Crispy and juicy chicken KARAAGE. Best recipe and method.",
+      "servings": 2,
+      "ingredients": [
+        {
+          "raw_text": "Chicken 250~350 grams",
+          "name": "chicken thigh",
+          "quantity": {
+            "min": 250,
+            "max": 350,
+            "unit": "g"
+          },
+          "component": "chicken",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "Onion 20 grams",
+          "name": "onion",
+          "quantity": {
+            "min": 20,
+            "max": 20,
+            "unit": "g"
+          },
+          "preparation": "grated",
+          "component": "marinade",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "Garlic 3 grams",
+          "name": "garlic",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "g"
+          },
+          "preparation": "grated",
+          "component": "marinade",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "Ginger 3 grams",
+          "name": "ginger",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "g"
+          },
+          "preparation": "grated",
+          "component": "marinade",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "Soy sauce 25 grams",
+          "name": "soy sauce",
+          "quantity": {
+            "min": 25,
+            "max": 25,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "Mirin 20 grams",
+          "name": "mirin",
+          "quantity": {
+            "min": 20,
+            "max": 20,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "Sake 20 grams",
+          "name": "sake",
+          "quantity": {
+            "min": 20,
+            "max": 20,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "video_description"
+          ],
+          "confidence": 0.98
+        }
+      ]
+    },
+    "missing": []
+  }
+}
