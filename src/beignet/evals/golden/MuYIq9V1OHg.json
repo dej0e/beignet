@@ -1,0 +1,203 @@
+{
+  "url": "https://www.youtube.com/watch?v=MuYIq9V1OHg",
+  "category": "linked_recipe",
+  "expected_ingest_stopped_at": "linked_recipe",
+  "labeling_notes": "Description provides a link to the recipe blog post on andy-cooks.com ('Fixing My Fried Rice Recipe' / 'Chinese Takeaway Fried Rice'). Labeled from the linked website's ingredient list.",
+  "expected": {
+    "status": "ok",
+    "recipe": {
+      "title": "Chinese Takeaway Fried Rice",
+      "servings": 4,
+      "ingredients": [
+        {
+          "raw_text": "3 tbsp neutral-flavoured oil",
+          "name": "neutral oil",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "tbsp"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 carrot, finely diced",
+          "name": "carrot",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each"
+          },
+          "preparation": "finely diced",
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1/2 cup corn kernels",
+          "name": "corn",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1/2 cup frozen peas",
+          "name": "frozen peas",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "200g ham, diced (approximately 7 oz)",
+          "name": "ham",
+          "quantity": {
+            "min": 200,
+            "max": 200,
+            "unit": "g"
+          },
+          "preparation": "diced",
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "3 spring onions, sliced (whites and greens separated)",
+          "name": "spring onion",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each"
+          },
+          "preparation": "sliced, whites and greens separated",
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "3 eggs, beaten",
+          "name": "egg",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each"
+          },
+          "preparation": "beaten",
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "4 cups cooked jasmine rice, completely cooled in the fridge overnight",
+          "name": "jasmine rice",
+          "quantity": {
+            "min": 4,
+            "max": 4,
+            "unit": "cup"
+          },
+          "preparation": "cooked, cooled",
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 1/2 tbsp light soy sauce",
+          "name": "light soy sauce",
+          "quantity": {
+            "min": 1.5,
+            "max": 1.5,
+            "unit": "tbsp"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tbsp dark soy sauce",
+          "name": "dark soy sauce",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp sugar",
+          "name": "sugar",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1/2 tsp salt",
+          "name": "salt",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1/2 tsp MSG",
+          "name": "MSG",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp"
+          },
+          "component": "fried rice",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        }
+      ]
+    },
+    "missing": []
+  }
+}

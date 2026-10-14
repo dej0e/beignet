@@ -1,0 +1,254 @@
+{
+  "url": "https://www.youtube.com/watch?v=qEHvmINXUfk",
+  "category": "linked_recipe",
+  "expected_ingest_stopped_at": "linked_recipe",
+  "labeling_notes": "Description provides a link to the recipe blog post on joshuaweissman.com. Labeled from the linked website's ingredient list, incorporating precise weights and unit measurements provided on the recipe page.",
+  "expected": {
+    "status": "ok",
+    "recipe": {
+      "title": "The Best Fried Chicken at Home",
+      "servings": 4,
+      "ingredients": [
+        {
+          "raw_text": "1 whole chicken",
+          "name": "whole chicken",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each"
+          },
+          "component": "chicken",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "2 cups (480mL) buttermilk",
+          "name": "buttermilk",
+          "quantity": {
+            "min": 480,
+            "max": 480,
+            "unit": "ml"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "2 Tbsp (18g) kosher salt",
+          "name": "kosher salt",
+          "quantity": {
+            "min": 18,
+            "max": 18,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp (4g) granulated sugar",
+          "name": "granulated sugar",
+          "quantity": {
+            "min": 4,
+            "max": 4,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1.5 tsp (5g) MSG",
+          "name": "MSG",
+          "quantity": {
+            "min": 5,
+            "max": 5,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 Tbsp (10g) garlic powder",
+          "name": "garlic powder",
+          "quantity": {
+            "min": 10,
+            "max": 10,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "2 tsp (6g) smoked paprika",
+          "name": "smoked paprika",
+          "quantity": {
+            "min": 6,
+            "max": 6,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp (3g) cayenne powder",
+          "name": "cayenne powder",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "g"
+          },
+          "component": "marinade",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "2.5 cups all-purpose flour",
+          "name": "all-purpose flour",
+          "quantity": {
+            "min": 2.5,
+            "max": 2.5,
+            "unit": "cup"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "0.5 cup potato starch",
+          "name": "potato starch",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 Tbsp kosher salt",
+          "name": "kosher salt",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp MSG",
+          "name": "MSG",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp cayenne powder",
+          "name": "cayenne powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp garlic powder",
+          "name": "garlic powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "0.5 tsp onion powder",
+          "name": "onion powder",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "2 tsp black pepper",
+          "name": "black pepper",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "raw_text": "1 tsp dried oregano",
+          "name": "dried oregano",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp"
+          },
+          "component": "dredge",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.98
+        }
+      ]
+    },
+    "missing": []
+  }
+}
