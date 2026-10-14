@@ -3,7 +3,7 @@
 Runs ingest + extract per case, matches returned ingredients to expected ones
 by name (one-to-one, best similarity first), then compares quantities.
 
-    uv run python -m beignet.evals.run_extract [-v] [case_id ...]
+    uv run python -m evals.run_extract [-v] [case_id ...]
 
 Needs network, GROQ_API_KEY, and burns Groq tokens (rate limits are retried).
 """

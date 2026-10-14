@@ -3,7 +3,7 @@
 Checks which rung produced the text and how many expected ingredient names
 show up in it. Needs network (yt-dlp + recipe pages).
 
-    uv run python -m beignet.evals.run_ingest [case_id ...]
+    uv run python -m evals.run_ingest [case_id ...]
 """
 import json
 import sys

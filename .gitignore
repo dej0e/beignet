@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LangGraph dev server local state (threads, checkpoints, store)
+.langgraph_api/
+
+# macOS / editors
+.DS_Store
+.vscode/

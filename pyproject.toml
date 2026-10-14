@@ -18,8 +18,19 @@ dependencies = [
 ]
 
 [project.scripts]
-beignet = "beignet:main"
+beignet = "beignet.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
 build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+# evals/ is a top-level package (not shipped in the wheel); tests import its matcher
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "langgraph-cli[inmem]>=0.4.35",
+    "pytest>=9.1.1",
+]

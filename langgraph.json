@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "beignet": "./src/beignet/graph.py:graph"
+  },
+  "env": ".env"
+}
