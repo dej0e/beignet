@@ -1,27 +1,30 @@
 {
   "url": "https://www.youtube.com/watch?v=OuTIFqKSsN8",
-  "category": "video_description",
-  "expected_ingest_stopped_at": "video_description",
-  "labeling_notes": "Ingredients extracted directly from the video description text on YouTube (Kyodokan channel). Organized into main protein and marinade sauce components with exact gram measurements.",
+  "category": "description",
+  "expected_ingest_stopped_at": "description",
+  "labeling_notes": "Labeled from the Recipe list in the video description.",
   "expected": {
     "status": "ok",
     "recipe": {
       "title": "Crispy and juicy chicken KARAAGE. Best recipe and method.",
-      "servings": 2,
+      "servings": null,
       "ingredients": [
         {
           "raw_text": "Chicken 250~350 grams",
-          "name": "chicken thigh",
+          "name": "chicken",
           "quantity": {
             "min": 250,
             "max": 350,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "component": "chicken",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "Onion 20 grams",
@@ -29,14 +32,16 @@
           "quantity": {
             "min": 20,
             "max": 20,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "preparation": "grated",
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "Garlic 3 grams",
@@ -44,14 +49,16 @@
           "quantity": {
             "min": 3,
             "max": 3,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "preparation": "grated",
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "Ginger 3 grams",
@@ -59,14 +66,16 @@
           "quantity": {
             "min": 3,
             "max": 3,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "preparation": "grated",
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "Soy sauce 25 grams",
@@ -74,13 +83,16 @@
           "quantity": {
             "min": 25,
             "max": 25,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "Mirin 20 grams",
@@ -88,13 +100,16 @@
           "quantity": {
             "min": 20,
             "max": 20,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "Sake 20 grams",
@@ -102,16 +117,22 @@
           "quantity": {
             "min": 20,
             "max": 20,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
-            "video_description"
+            "description"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

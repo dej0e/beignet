@@ -2,69 +2,80 @@
   "url": "https://www.youtube.com/watch?v=yvfVAvJZ-8A",
   "category": "linked_recipe",
   "expected_ingest_stopped_at": "linked_recipe",
-  "labeling_notes": "Extracted from the recipe blog post on joshuaweissman.com ('The Best Burger Buns Ever' / 'Potato Burger Buns'). Ingredients are categorized into dough, wash/finish, and optional toppings.",
+  "labeling_notes": "Labeled from the joshuaweissman.com ingredient list (russet potato, dough).",
   "expected": {
     "status": "ok",
     "recipe": {
       "title": "The Best Burger Buns Ever",
-      "servings": 10,
+      "servings": null,
       "ingredients": [
         {
-          "raw_text": "1 medium russet potato (about 1/2 cup or 120g mashed)",
+          "raw_text": "1 large russet potato, peeled",
           "name": "russet potato",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
-          "preparation": "mashed",
-          "component": "dough",
+          "preparation": "peeled",
+          "optional": false,
+          "component": "russet potato",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "245g whole milk, warm (90-95°F)",
+          "raw_text": "245g whole milk, plus more for brushing",
           "name": "whole milk",
           "quantity": {
             "min": 245,
             "max": 245,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "55g water, warm (90-95°F)",
+          "raw_text": "55g water",
           "name": "water",
           "quantity": {
             "min": 55,
             "max": 55,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "7g instant dry yeast",
-          "name": "instant dry yeast",
+          "raw_text": "7g active dry yeast",
+          "name": "active dry yeast",
           "quantity": {
             "min": 7,
             "max": 7,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "50g granulated sugar",
@@ -72,13 +83,16 @@
           "quantity": {
             "min": 50,
             "max": 50,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "575g bread flour",
@@ -86,13 +100,16 @@
           "quantity": {
             "min": 575,
             "max": 575,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "14g fine sea salt",
@@ -100,22 +117,11 @@
           "quantity": {
             "min": 14,
             "max": 14,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "component": "dough",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1g amylase powder (optional)",
-          "name": "amylase powder",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "g"
-          },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
@@ -123,13 +129,33 @@
           "confidence": 0.95
         },
         {
-          "raw_text": "1/2 tsp turmeric powder (optional)",
+          "raw_text": "1g amylase, optionally",
+          "name": "amylase",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": true,
+          "component": "dough",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "½ tsp (<1g) turmeric powder",
           "name": "turmeric powder",
           "quantity": {
             "min": 0.5,
             "max": 0.5,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
@@ -137,18 +163,21 @@
           "confidence": 0.95
         },
         {
-          "raw_text": "25g vegetable oil",
-          "name": "vegetable oil",
+          "raw_text": "25g neutral tasting oil (vegetable, canola, or avocado oil)",
+          "name": "neutral oil",
           "quantity": {
             "min": 25,
             "max": 25,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "1 large egg",
@@ -156,74 +185,73 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 egg yolk",
-          "name": "egg yolk",
+          "raw_text": "1 large egg yolk",
+          "name": "egg",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": "yolk only",
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "30g unsalted butter, softened",
+          "raw_text": "120g russet potato",
+          "name": "russet potato",
+          "quantity": {
+            "min": 120,
+            "max": 120,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": "mashed",
+          "optional": false,
+          "component": "dough",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "raw_text": "30g unsalted butter, softened, plus more for brushing at the end",
           "name": "unsalted butter",
           "quantity": {
             "min": 30,
             "max": 30,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
           "preparation": "softened",
+          "optional": false,
           "component": "dough",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "2 tbsp whole milk (for brushing)",
-          "name": "whole milk",
-          "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "tbsp"
-          },
-          "component": "wash",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "2 tbsp unsalted butter, melted (for brushing)",
-          "name": "unsalted butter",
-          "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "tbsp"
-          },
-          "preparation": "melted",
-          "component": "finish",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
+          "confidence": 0.95
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

@@ -1,76 +1,162 @@
 {
   "url": "https://www.youtube.com/watch?v=41Kt91N4K34",
-  "category": "description_list",
+  "category": "description",
   "expected_ingest_stopped_at": "description",
-  "labeling_notes": "Extracted ingredients and quantities for the Fallow Ultimate Chicken Pie recipe.",
+  "labeling_notes": "Labeled from the video description (pie filling + chicken supreme sauce lists).",
   "expected": {
     "status": "ok",
     "recipe": {
-      "title": "The Best Chicken Pie You'll Ever Make",
-      "servings": 4,
+      "title": "The Best Chicken Pie You’ll Ever Make",
+      "servings": null,
       "ingredients": [
         {
-          "raw_text": "1 whole free-range chicken",
+          "raw_text": "1 Whole chicken",
           "name": "whole chicken",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "pie filling",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "2 banana shallots, finely diced",
-          "name": "banana shallots",
+          "raw_text": "200g Shallots",
+          "name": "shallots",
           "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "each"
+            "min": 200,
+            "max": 200,
+            "unit": "g",
+            "qualitative": null
           },
-          "preparation": "finely diced",
+          "preparation": null,
+          "optional": false,
+          "component": "pie filling",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "2 cloves garlic, crushed",
+          "raw_text": "200g lardons",
+          "name": "lardons",
+          "quantity": {
+            "min": 200,
+            "max": 200,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "pie filling",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "200g button mushrooms",
+          "name": "button mushrooms",
+          "quantity": {
+            "min": 200,
+            "max": 200,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "pie filling",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "10g flat leaf parsley",
+          "name": "flat leaf parsley",
+          "quantity": {
+            "min": 10,
+            "max": 10,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "pie filling",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "10g tarragon",
+          "name": "tarragon",
+          "quantity": {
+            "min": 10,
+            "max": 10,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "pie filling",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "100g Shallots",
+          "name": "shallots",
+          "quantity": {
+            "min": 100,
+            "max": 100,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 garlic clove",
           "name": "garlic",
-          "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "clove"
-          },
-          "preparation": "crushed",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "1 sprig rosemary",
-          "name": "rosemary",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "sprig"
+            "unit": "clove",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "2 sprigs thyme",
-          "name": "thyme",
+          "raw_text": "300ml dry white wine",
+          "name": "dry white wine",
           "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "sprig"
+            "min": 300,
+            "max": 300,
+            "unit": "ml",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
           "sources": [
             "description"
           ],
@@ -82,236 +168,209 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "100ml white wine",
-          "name": "white wine",
-          "quantity": {
-            "min": 100,
-            "max": 100,
-            "unit": "ml"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "500ml chicken stock",
-          "name": "chicken stock",
-          "quantity": {
-            "min": 500,
-            "max": 500,
-            "unit": "ml"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "150ml double cream",
-          "name": "double cream",
-          "quantity": {
-            "min": 150,
-            "max": 150,
-            "unit": "ml"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "1 tsp Dijon mustard",
-          "name": "Dijon mustard",
+          "raw_text": "1 rosemary sprig",
+          "name": "rosemary",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": null,
+            "qualitative": "sprig"
           },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "1 tsp Marmite (or yeast extract)",
-          "name": "Marmite",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "30g plain flour",
-          "name": "plain flour",
-          "quantity": {
-            "min": 30,
-            "max": 30,
-            "unit": "g"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "30g reserved chicken fat (or butter)",
-          "name": "reserved chicken fat",
-          "quantity": {
-            "min": 30,
-            "max": 30,
-            "unit": "g"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "100g smoked bacon lardons",
-          "name": "smoked bacon lardons",
-          "quantity": {
-            "min": 100,
-            "max": 100,
-            "unit": "g"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "150g button mushrooms, quartered",
-          "name": "button mushrooms",
-          "quantity": {
-            "min": 150,
-            "max": 150,
-            "unit": "g"
-          },
-          "preparation": "quartered",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "2 banana shallots, sliced into thick rounds",
-          "name": "banana shallots",
-          "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "each"
-          },
-          "preparation": "sliced into thick rounds",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "Small bunch fresh tarragon, chopped",
-          "name": "fresh tarragon",
-          "quantity": {
-            "qualitative": "small bunch"
-          },
-          "preparation": "chopped",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "Small bunch fresh flat-leaf parsley, chopped",
-          "name": "fresh flat-leaf parsley",
-          "quantity": {
-            "qualitative": "small bunch"
-          },
-          "preparation": "chopped",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "Juice of 1/2 lemon",
-          "name": "lemon juice",
-          "quantity": {
-            "min": 0.5,
-            "max": 0.5,
-            "unit": "each"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "500g block all-butter puff pastry (for base)",
-          "name": "puff pastry block",
-          "quantity": {
-            "min": 500,
-            "max": 500,
-            "unit": "g"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "1 sheet pre-rolled puff pastry (for lid)",
-          "name": "puff pastry sheet",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "each"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "1 egg, beaten (for egg wash)",
-          "name": "egg",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "each"
-          },
-          "preparation": "beaten",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "Flaky sea salt to finish",
-          "name": "flaky sea salt",
-          "quantity": {
-            "qualitative": "to finish"
-          },
-          "optional": true,
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.9
+        },
+        {
+          "raw_text": "3 thyme sprigs",
+          "name": "thyme",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": null,
+            "qualitative": "sprigs"
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "800ml double chicken stock",
+          "name": "chicken stock",
+          "quantity": {
+            "min": 800,
+            "max": 800,
+            "unit": "ml",
+            "qualitative": null
+          },
+          "preparation": "double strength",
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "500ml double cream",
+          "name": "double cream",
+          "quantity": {
+            "min": 500,
+            "max": 500,
+            "unit": "ml",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp dijon mustard",
+          "name": "dijon mustard",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp marmite",
+          "name": "marmite",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "25g chicken fat",
+          "name": "chicken fat",
+          "quantity": {
+            "min": 25,
+            "max": 25,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "25g plain flour",
+          "name": "plain flour",
+          "quantity": {
+            "min": 25,
+            "max": 25,
+            "unit": "g",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "chicken supreme sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Puff pastry",
+          "name": "puff pastry",
+          "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": null,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "raw_text": "Unsalted butter",
+          "name": "unsalted butter",
+          "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": null,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "raw_text": "2 egg yolks",
+          "name": "egg",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": "yolks only",
+          "optional": false,
+          "component": null,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

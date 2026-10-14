@@ -2,183 +2,341 @@
   "url": "https://www.youtube.com/watch?v=63tRWpVKKG8",
   "category": "linked_recipe",
   "expected_ingest_stopped_at": "linked_recipe",
-  "labeling_notes": "Extracted from the linked blog recipe (Hot Thai Kitchen: Massaman Curry Chicken). Ingredients are organized into chicken, curry paste, and curry sauce components with unit measurements.",
+  "labeling_notes": "Labeled from the hot-thai-kitchen.com recipe card, including the Quick Massaman Curry Paste sub-recipe. First stated amount used; metric equivalents in parentheses ignored.",
   "expected": {
     "status": "ok",
     "recipe": {
       "title": "Massaman Chicken Curry",
-      "servings": 4,
+      "servings": null,
       "ingredients": [
         {
-          "raw_text": "1.5 lbs (680g) bone-in, skin-on chicken thighs or drumsticks",
-          "name": "chicken thighs or drumsticks",
+          "raw_text": "2 pounds (1 kg) chicken thighs, bone-in, skin-on",
+          "name": "chicken thighs",
           "quantity": {
-            "min": 680,
-            "max": 680,
-            "unit": "g"
+            "min": 2,
+            "max": 2,
+            "unit": "lb",
+            "qualitative": null
           },
-          "component": "chicken",
+          "preparation": "bone-in, skin-on",
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "5-6 Tbsp massaman curry paste",
+          "raw_text": "2 cups (500 ml) coconut milk, divided",
+          "name": "coconut milk",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "cup",
+            "qualitative": null
+          },
+          "preparation": "divided",
+          "optional": false,
+          "component": null,
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "5 to 6 tablespoons (75 to 90 ml) Quick Massaman Curry Paste (recipe below) or store bought",
           "name": "massaman curry paste",
           "quantity": {
             "min": 5,
             "max": 6,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "curry paste",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.85
         },
         {
-          "raw_text": "2 cups (480mL) coconut milk",
-          "name": "coconut milk",
+          "raw_text": "3 tablespoons (36 g) finely chopped palm sugar or light brown sugar, packed",
+          "name": "palm sugar",
           "quantity": {
-            "min": 480,
-            "max": 480,
-            "unit": "ml"
+            "min": 3,
+            "max": 3,
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": "finely chopped, packed",
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 cup (240mL) chicken stock or water",
-          "name": "chicken stock",
+          "raw_text": "2 to 3 tablespoons (30 to 45 ml) tamarind paste, store-bought or homemade",
+          "name": "tamarind paste",
           "quantity": {
-            "min": 240,
-            "max": 240,
-            "unit": "ml"
+            "min": 2,
+            "max": 3,
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "2-3 Tbsp fish sauce",
+          "raw_text": "2 to 3 tablespoons (30 to 45 ml) fish sauce",
           "name": "fish sauce",
           "quantity": {
             "min": 2,
             "max": 3,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "2.5 Tbsp palm sugar, finely chopped",
-          "name": "palm sugar",
-          "quantity": {
-            "min": 2.5,
-            "max": 2.5,
-            "unit": "tbsp"
-          },
-          "component": "sauce",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "2 Tbsp tamarind paste",
-          "name": "tamarind paste",
+          "raw_text": "2 bay leaves (optional)",
+          "name": "bay leaves",
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tbsp"
+            "unit": "each",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": null,
+          "optional": true,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "2 medium waxy potatoes or yellow sweet potatoes, cut into big chunks",
-          "name": "potatoes",
+          "raw_text": "10.5 ounces (300 g) waxy or all-purpose potatoes, such as Yukon Gold, cut in 1-inch (2.5 cm ) chunks",
+          "name": "waxy potatoes",
           "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "each"
+            "min": 10.5,
+            "max": 10.5,
+            "unit": "oz",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": "cut in 1-inch chunks",
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.9
         },
         {
-          "raw_text": "1/2 large yellow onion, cut into wedges",
+          "raw_text": "½ large yellow or white onion, cut in ½-inch (1.2 cm) strips",
           "name": "yellow onion",
           "quantity": {
             "min": 0.5,
             "max": 0.5,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": "cut in strips",
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1/3 cup roasted unsalted peanuts",
-          "name": "roasted peanuts",
+          "raw_text": "¼ cup (35 g) unsalted roasted peanuts",
+          "name": "unsalted roasted peanuts",
           "quantity": {
-            "min": 0.33,
-            "max": 0.33,
-            "unit": "cup"
+            "min": 0.25,
+            "max": 0.25,
+            "unit": "cup",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 cinnamon stick",
-          "name": "cinnamon stick",
+          "raw_text": "Jasmine rice, for serving",
+          "name": "jasmine rice",
+          "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": "for serving"
+          },
+          "preparation": null,
+          "optional": false,
+          "component": null,
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "5 pc whole cloves",
+          "name": "whole cloves",
+          "quantity": {
+            "min": 5,
+            "max": 5,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 pods green or white cardamom",
+          "name": "green cardamom pods",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp (5 ml) coriander seeds",
+          "name": "coriander seeds",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "3-5 green cardamom pods, cracked",
-          "name": "cardamom pods",
+          "raw_text": "1 tsp (5 ml) cumin seeds",
+          "name": "cumin seeds",
           "quantity": {
-            "min": 3,
-            "max": 5,
-            "unit": "each"
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "sauce",
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp (5 ml) ground cinnamon",
+          "name": "ground cinnamon",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "⅛ tsp ground nutmeg",
+          "name": "ground nutmeg",
+          "quantity": {
+            "min": 0.125,
+            "max": 0.125,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "4-5 tablespoons (60-75 ml) red curry paste, store bought (see note 1)",
+          "name": "red curry paste",
+          "quantity": {
+            "min": 4,
+            "max": 5,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "quick massaman curry paste",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1-2 teaspoon (5-10 ml) fermented shrimp paste (optional but recommended, see note 2)",
+          "name": "fermented shrimp paste",
+          "quantity": {
+            "min": 1,
+            "max": 2,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": true,
+          "component": "quick massaman curry paste",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

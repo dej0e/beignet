@@ -2,12 +2,12 @@
   "url": "https://www.youtube.com/watch?v=jDsO3J5klWg",
   "category": "linked_recipe",
   "expected_ingest_stopped_at": "linked_recipe",
-  "labeling_notes": "Extracted from the recipe blog post on alittlebitofspice.com ('Kerala Style Chicken Curry without coconut / Nadan kozhi curry'). Ingredients are organized into marinade, base/curry, and garnish components.",
+  "labeling_notes": "Labeled from the alittlebitofspice.com recipe card (marination, masala gravy).",
   "expected": {
     "status": "ok",
     "recipe": {
       "title": "Kerala Style Chicken Curry without coconut (Nadan kozhi curry)",
-      "servings": 4,
+      "servings": null,
       "ingredients": [
         {
           "raw_text": "1 kg chicken",
@@ -15,240 +15,294 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "kg"
+            "unit": "kg",
+            "qualitative": null
           },
-          "component": "marinade",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1 tsp pepper powder",
-          "name": "black pepper powder",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
-          },
-          "component": "marinade",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "3/4 tsp turmeric powder",
-          "name": "turmeric powder",
-          "quantity": {
-            "min": 0.75,
-            "max": 0.75,
-            "unit": "tsp"
-          },
-          "component": "marinade",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1 tsp salt",
-          "name": "salt",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
-          },
-          "component": "marinade",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "3 tbsp vegetable oil",
-          "name": "vegetable oil",
-          "quantity": {
-            "min": 3,
-            "max": 3,
-            "unit": "tbsp"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "3 onions, finely sliced",
-          "name": "onion",
-          "quantity": {
-            "min": 3,
-            "max": 3,
-            "unit": "each"
-          },
-          "preparation": "finely sliced",
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1.5 tsp curry leaves",
-          "name": "curry leaves",
-          "quantity": {
-            "min": 1.5,
-            "max": 1.5,
-            "unit": "tsp"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1 tbsp ground garlic",
-          "name": "garlic",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tbsp"
-          },
-          "preparation": "ground",
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1 tbsp ground ginger",
-          "name": "ginger",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tbsp"
-          },
-          "preparation": "ground",
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "2 tbsp Kashmiri chili powder",
-          "name": "Kashmiri chili powder",
-          "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "tbsp"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "4 tsp coriander powder",
-          "name": "coriander powder",
-          "quantity": {
-            "min": 4,
-            "max": 4,
-            "unit": "tsp"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1 tsp garam masala powder",
-          "name": "garam masala",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "1 tsp fennel powder",
-          "name": "fennel powder",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "2 tomatoes, pureed",
-          "name": "tomato",
-          "quantity": {
-            "min": 2,
-            "max": 2,
-            "unit": "each"
-          },
-          "preparation": "pureed",
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "355 ml water",
-          "name": "water",
-          "quantity": {
-            "min": 355,
-            "max": 355,
-            "unit": "ml"
-          },
-          "component": "curry",
-          "sources": [
-            "linked_recipe"
-          ],
-          "confidence": 0.98
-        },
-        {
-          "raw_text": "salt to taste",
-          "name": "salt",
-          "component": "curry",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "linked_recipe"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "3 tbsp chopped coriander leaves",
+          "raw_text": "1 teaspoon pepper powder",
+          "name": "black pepper powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "marination",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "¾ teaspoon turmeric powder",
+          "name": "turmeric powder",
+          "quantity": {
+            "min": 0.75,
+            "max": 0.75,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "marination",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 teaspoon salt",
+          "name": "salt",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "marination",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 numbers onion (medium)",
+          "name": "onion",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tablespoon ginger (grinded)",
+          "name": "ginger",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": "ground to paste",
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tablespoon garlic (grinded)",
+          "name": "garlic",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": "ground to paste",
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tbsps Kashmiri Chilli Powder",
+          "name": "Kashmiri chilli powder",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "4 tsps coriander Powder",
+          "name": "coriander powder",
+          "quantity": {
+            "min": 4,
+            "max": 4,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 teaspoon garam masala Powder",
+          "name": "garam masala powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 teaspoon fennel Powder",
+          "name": "fennel powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 numbers curry leaves (Sprig)",
+          "name": "curry leaves",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "raw_text": "2 numbers tomato (medium)",
+          "name": "tomato",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 ½ cups water",
+          "name": "water",
+          "quantity": {
+            "min": 1.5,
+            "max": 1.5,
+            "unit": "cup",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 tablespoon coriander leaves (chopped)",
           "name": "coriander leaves",
           "quantity": {
             "min": 3,
             "max": 3,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
           "preparation": "chopped",
-          "component": "garnish",
+          "optional": false,
+          "component": "masala gravy",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 tablespoon Coconut oil or Vegetable oil",
+          "name": "coconut oil",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "salt",
+          "name": "salt",
+          "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala gravy",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.8
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "url": "https://www.youtube.com/watch?v=y1OOyhQ2DTo",
-  "category": "description_list",
+  "category": "description",
   "expected_ingest_stopped_at": "description",
-  "labeling_notes": "Description has full ingredient lists with amounts for both 30-minute and 3-hour versions of chicken biryani. Labeled from description, then verified against the video.",
+  "labeling_notes": "Labeled from the video description: both the 30 minute and 3 hour versions, the 3 hour masala, and saffron milk. The 'Boil-' and 'Order to cook and layer' lines only refer back to earlier ingredients and are not labeled.",
   "expected": {
     "status": "ok",
     "recipe": {
-      "title": "Authentic Chicken Biryani (30 Minute vs 3 Hour)",
+      "title": "Authentic Chicken Biryani",
       "servings": null,
       "ingredients": [
         {
@@ -15,8 +15,12 @@
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -28,9 +32,12 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
-          "preparation": "diced/sliced",
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -42,8 +49,12 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -51,12 +62,16 @@
         },
         {
           "raw_text": "2 tbsp ginger",
-          "name": "ginger paste",
+          "name": "ginger",
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -68,8 +83,12 @@
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -81,8 +100,12 @@
           "quantity": {
             "min": 2,
             "max": 3,
-            "unit": "lb"
+            "unit": "lb",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -94,8 +117,12 @@
           "quantity": {
             "min": 0.5,
             "max": 0.5,
-            "unit": "cup"
+            "unit": "cup",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -107,8 +134,12 @@
           "quantity": {
             "min": 0.25,
             "max": 0.25,
-            "unit": "cup"
+            "unit": "cup",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -120,8 +151,12 @@
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "cup"
+            "unit": "cup",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -131,8 +166,31 @@
           "raw_text": "Salt to taste (depends on Masala)",
           "name": "salt",
           "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
             "qualitative": "to taste"
           },
+          "preparation": null,
+          "optional": false,
+          "component": "30 minute",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "Cilantro , mint , lemon juice to garnish",
+          "name": "cilantro",
+          "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": "to garnish"
+          },
+          "preparation": null,
+          "optional": true,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
@@ -140,42 +198,434 @@
         },
         {
           "raw_text": "Cilantro , mint , lemon juice to garnish",
-          "name": "cilantro",
-          "quantity": {
-            "qualitative": "to garnish"
-          },
-          "optional": true,
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.9
-        },
-        {
-          "raw_text": "mint",
           "name": "mint",
           "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
             "qualitative": "to garnish"
           },
+          "preparation": null,
           "optional": true,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
           "confidence": 0.9
         },
         {
-          "raw_text": "lemon juice",
+          "raw_text": "Cilantro , mint , lemon juice to garnish",
           "name": "lemon juice",
           "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
             "qualitative": "to garnish"
           },
+          "preparation": null,
           "optional": true,
+          "component": "30 minute",
           "sources": [
             "description"
           ],
           "confidence": 0.9
+        },
+        {
+          "raw_text": "1 large bundle cilantro, chopped",
+          "name": "cilantro",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "bunch",
+            "qualitative": null
+          },
+          "preparation": "chopped",
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 large onions",
+          "name": "onions",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 cup oil",
+          "name": "oil",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "cup",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 cinnamon stick",
+          "name": "cinnamon stick",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 bay leaf",
+          "name": "bay leaf",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tsp coriander seeds",
+          "name": "coriander seeds",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/2 tsp cloves",
+          "name": "whole cloves",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp black peppercorns",
+          "name": "black peppercorns",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 tsp fennel",
+          "name": "fennel seeds",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "raw_text": "5-7 pods green cardamom",
+          "name": "green cardamom pods",
+          "quantity": {
+            "min": 5,
+            "max": 7,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1-2 pieces star anise",
+          "name": "star anise",
+          "quantity": {
+            "min": 1,
+            "max": 2,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "masala",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 lbs chicken drums (can use other cuts)",
+          "name": "chicken drumsticks",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "lb",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1.5cup Yogurt",
+          "name": "yogurt",
+          "quantity": {
+            "min": 1.5,
+            "max": 1.5,
+            "unit": "cup",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 tbsp Ginger, mashed",
+          "name": "ginger",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": "mashed",
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "7-10 cloves garlic, mashed",
+          "name": "garlic",
+          "quantity": {
+            "min": 7,
+            "max": 10,
+            "unit": "clove",
+            "qualitative": null
+          },
+          "preparation": "mashed",
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "2 green chilis (for heat)",
+          "name": "green chilis",
+          "quantity": {
+            "min": 2,
+            "max": 2,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 Lemon’s juice",
+          "name": "lemon",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": "juiced",
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp Red chili powder",
+          "name": "red chili powder",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tbsp turmeric",
+          "name": "turmeric",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "salt to taste",
+          "name": "salt",
+          "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": "to taste"
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "3 cups basmati rice, washed",
+          "name": "basmati rice",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "cup",
+            "qualitative": null
+          },
+          "preparation": "washed",
+          "optional": false,
+          "component": "3 hour",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/2 tsp saffron",
+          "name": "saffron",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "saffron milk",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "1/2 cup milk, warmed",
+          "name": "milk",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "cup",
+            "qualitative": null
+          },
+          "preparation": "warmed",
+          "optional": false,
+          "component": "saffron milk",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

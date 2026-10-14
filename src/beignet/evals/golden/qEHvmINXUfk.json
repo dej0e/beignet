@@ -2,12 +2,12 @@
   "url": "https://www.youtube.com/watch?v=qEHvmINXUfk",
   "category": "linked_recipe",
   "expected_ingest_stopped_at": "linked_recipe",
-  "labeling_notes": "Description provides a link to the recipe blog post on joshuaweissman.com. Labeled from the linked website's ingredient list, incorporating precise weights and unit measurements provided on the recipe page.",
+  "labeling_notes": "Labeled from the joshuaweissman.com ingredient list (chicken and marinade, dredge and fry). First stated amount used; metric equivalents in parentheses ignored.",
   "expected": {
     "status": "ok",
     "recipe": {
       "title": "The Best Fried Chicken at Home",
-      "servings": 4,
+      "servings": null,
       "ingredients": [
         {
           "raw_text": "1 whole chicken",
@@ -15,240 +15,311 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
-          "component": "chicken",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "2 cups (480mL) buttermilk",
           "name": "buttermilk",
           "quantity": {
-            "min": 480,
-            "max": 480,
-            "unit": "ml"
+            "min": 2,
+            "max": 2,
+            "unit": "cup",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "2 Tbsp (18g) kosher salt",
           "name": "kosher salt",
           "quantity": {
-            "min": 18,
-            "max": 18,
-            "unit": "g"
+            "min": 2,
+            "max": 2,
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "1 tsp (4g) granulated sugar",
           "name": "granulated sugar",
           "quantity": {
-            "min": 4,
-            "max": 4,
-            "unit": "g"
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "1.5 tsp (5g) MSG",
           "name": "MSG",
           "quantity": {
-            "min": 5,
-            "max": 5,
-            "unit": "g"
+            "min": 1.5,
+            "max": 1.5,
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "1 Tbsp (10g) garlic powder",
           "name": "garlic powder",
           "quantity": {
-            "min": 10,
-            "max": 10,
-            "unit": "g"
+            "min": 1,
+            "max": 1,
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "2 tsp (6g) smoked paprika",
           "name": "smoked paprika",
           "quantity": {
-            "min": 6,
-            "max": 6,
-            "unit": "g"
+            "min": 2,
+            "max": 2,
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
           "raw_text": "1 tsp (3g) cayenne powder",
           "name": "cayenne powder",
           "quantity": {
-            "min": 3,
-            "max": 3,
-            "unit": "g"
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "marinade",
+          "preparation": null,
+          "optional": false,
+          "component": "chicken and marinade",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "2.5 cups all-purpose flour",
+          "raw_text": "3.5 quarts (3.3 L) high temperature cooking oil (vegetable oil, avocado oil, canola oil, etc.)",
+          "name": "cooking oil",
+          "quantity": {
+            "min": 3.5,
+            "max": 3.5,
+            "unit": null,
+            "qualitative": "quarts"
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
+          "sources": [
+            "linked_recipe"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "raw_text": "2.5 cups (375g) all-purpose flour",
           "name": "all-purpose flour",
           "quantity": {
             "min": 2.5,
             "max": 2.5,
-            "unit": "cup"
+            "unit": "cup",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "0.5 cup potato starch",
+          "raw_text": "½ cup (60g) potato starch or cornstarch (I used potato)",
           "name": "potato starch",
           "quantity": {
             "min": 0.5,
             "max": 0.5,
-            "unit": "cup"
+            "unit": "cup",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 Tbsp kosher salt",
+          "raw_text": "1 Tbsp (9g) kosher salt",
           "name": "kosher salt",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp MSG",
+          "raw_text": "1 tsp (3g) MSG",
           "name": "MSG",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp cayenne powder",
+          "raw_text": "1 tsp (3g) cayenne powder",
           "name": "cayenne powder",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp garlic powder",
+          "raw_text": "1 tsp (3g) garlic powder",
           "name": "garlic powder",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "0.5 tsp onion powder",
+          "raw_text": "½ tsp (~1g) onion powder",
           "name": "onion powder",
           "quantity": {
             "min": 0.5,
             "max": 0.5,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "2 tsp black pepper",
+          "raw_text": "2 tsp (6g) freshly cracked black pepper",
           "name": "black pepper",
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": "freshly cracked",
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp dried oregano",
+          "raw_text": "1 tsp (1g) dried oregano",
           "name": "dried oregano",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
-          "component": "dredge",
+          "preparation": null,
+          "optional": false,
+          "component": "dredge and fry",
           "sources": [
             "linked_recipe"
           ],
-          "confidence": 0.98
+          "confidence": 0.95
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

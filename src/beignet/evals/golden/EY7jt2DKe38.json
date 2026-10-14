@@ -1,8 +1,8 @@
 {
   "url": "https://www.youtube.com/watch?v=EY7jt2DKe38",
-  "category": "description_list",
+  "category": "description",
   "expected_ingest_stopped_at": "description",
-  "labeling_notes": "Extracted ingredients and amounts for the Lebanese Lemon Garlic Chicken (Al Aseel copycat) from the video description/recipe.",
+  "labeling_notes": "Labeled from the recipe in the video description (marinade, yogurt sauce, cooking & serving).",
   "expected": {
     "status": "ok",
     "recipe": {
@@ -10,27 +10,34 @@
       "servings": null,
       "ingredients": [
         {
-          "raw_text": "500g/ 1lb chicken tenderloin (or breast)",
+          "raw_text": "500g/ 1lb chicken tenderloin cut into 4cm/1.5\" squares, large vein cut out (or breast)",
           "name": "chicken tenderloin",
           "quantity": {
             "min": 500,
             "max": 500,
-            "unit": "g"
+            "unit": "g",
+            "qualitative": null
           },
-          "preparation": "cut into 4cm / 1.5″ squares, large vein cut out",
+          "preparation": "cut into 4cm squares",
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "4 tbsp Greek or plain yogurt",
+          "raw_text": "4 tbsp Greek or plain yogurt (65g)",
           "name": "Greek yogurt",
           "quantity": {
             "min": 4,
             "max": 4,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic marinade",
           "sources": [
             "description"
           ],
@@ -42,22 +49,29 @@
           "quantity": {
             "min": 3,
             "max": 3,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic marinade",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp garlic, finely grated or crushed",
+          "raw_text": "1 tbsp garlic, finely minced (~4 big cloves)",
           "name": "garlic",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "preparation": "finely grated or crushed",
+          "preparation": "finely minced",
+          "optional": false,
+          "component": "lemon garlic marinade",
           "sources": [
             "description"
           ],
@@ -69,48 +83,63 @@
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic marinade",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp cooking salt / kosher salt",
-          "name": "salt",
+          "raw_text": "1 tsp cooking salt / kosher salt (1/2 tsp table salt, 1 1/4 tsp flakes)",
+          "name": "cooking salt",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic marinade",
           "sources": [
             "description"
           ],
-          "confidence": 0.95
+          "confidence": 0.9
         },
         {
-          "raw_text": "1 cup Greek or plain yogurt",
+          "raw_text": "1 cup Greek or plain yogurt (250g)",
           "name": "Greek yogurt",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "cup"
+            "unit": "cup",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "3/4 tsp garlic, finely grated or crushed",
+          "raw_text": "1/2 tsp garlic, finely grated or crushed using garlic press (~1 clove)",
           "name": "garlic",
           "quantity": {
-            "min": 0.75,
-            "max": 0.75,
-            "unit": "tsp"
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp",
+            "qualitative": null
           },
-          "preparation": "finely grated or crushed",
+          "preparation": "finely grated",
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
           "sources": [
             "description"
           ],
@@ -122,64 +151,84 @@
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp lemon juice",
+          "raw_text": "1 1/2 tbsp lemon juice",
           "name": "lemon juice",
           "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tbsp"
+            "min": 1.5,
+            "max": 1.5,
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp tahini (hulled)",
+          "raw_text": "1 tbsp tahini (hulled), or extra 1 tbsp olive oil",
           "name": "tahini",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp+ water",
+          "raw_text": "1 tbsp water",
           "name": "water",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.9
-        },
-        {
-          "raw_text": "1 tsp cooking salt / kosher salt",
-          "name": "salt",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
-          },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
           "sources": [
             "description"
           ],
           "confidence": 0.95
+        },
+        {
+          "raw_text": "1 tsp cooking salt / kosher salt (1/2 tsp table salt, 1 1/4 tsp flakes)",
+          "name": "cooking salt",
+          "quantity": {
+            "min": 1,
+            "max": 1,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": "lemon garlic yogurt sauce",
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.9
         },
         {
           "raw_text": "2 tbsp olive oil, for cooking",
@@ -187,53 +236,73 @@
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "tbsp"
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": "cooking & serving",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp parsley, roughly chopped",
+          "raw_text": "1 tsp parsley, roughly chopped (or equal amounts mint and parsley)",
           "name": "parsley",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
           "preparation": "roughly chopped",
+          "optional": false,
+          "component": "cooking & serving",
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "Lemon wedges and extra virgin olive oil, for garnish",
-          "name": "lemon wedges",
+          "raw_text": "Lemon wedges & extra virgin olive oil, for garnish",
+          "name": "lemon",
           "quantity": {
+            "min": null,
+            "max": null,
+            "unit": null,
             "qualitative": "for garnish"
           },
+          "preparation": "wedges",
           "optional": true,
+          "component": "cooking & serving",
           "sources": [
             "description"
           ],
-          "confidence": 0.9
+          "confidence": 0.85
         },
         {
-          "raw_text": "Lebanese bread for sauce mopping",
-          "name": "Lebanese bread",
+          "raw_text": "Lemon wedges & extra virgin olive oil, for garnish",
+          "name": "extra virgin olive oil",
           "quantity": {
-            "qualitative": "to serve"
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": "for garnish"
           },
+          "preparation": null,
           "optional": true,
+          "component": "cooking & serving",
           "sources": [
             "description"
           ],
-          "confidence": 0.9
+          "confidence": 0.85
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }

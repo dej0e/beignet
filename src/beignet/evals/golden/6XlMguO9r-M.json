@@ -1,303 +1,342 @@
 {
   "url": "https://www.youtube.com/watch?v=6XlMguO9r-M",
-  "category": "description_list",
+  "category": "description",
   "expected_ingest_stopped_at": "description",
-  "labeling_notes": "Extracted ingredients and amounts for Hyderabadi Chicken Biryani from the video description.",
+  "labeling_notes": "Labeled from the Ingredients list in the video description.",
   "expected": {
     "status": "ok",
     "recipe": {
       "title": "Hyderabadi Chicken Biryani",
-      "servings": 4,
+      "servings": null,
       "ingredients": [
         {
-          "raw_text": "1kg chicken thighs (skin off, bone-in)",
+          "raw_text": "- 3 large red onions, sliced thin",
+          "name": "red onions",
+          "quantity": {
+            "min": 3,
+            "max": 3,
+            "unit": "each",
+            "qualitative": null
+          },
+          "preparation": "sliced thin",
+          "optional": false,
+          "component": null,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "- 200ml peanut oil for frying",
+          "name": "peanut oil",
+          "quantity": {
+            "min": 200,
+            "max": 200,
+            "unit": "ml",
+            "qualitative": null
+          },
+          "preparation": "for frying",
+          "optional": false,
+          "component": null,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "- 1 kg chicken thighs, skin off",
           "name": "chicken thighs",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "kg"
+            "unit": "kg",
+            "qualitative": null
           },
-          "preparation": "skin off, bone-in",
+          "preparation": "skin off",
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "200g Greek yogurt",
-          "name": "Greek yogurt",
+          "raw_text": "- 4 tbsp yogurt",
+          "name": "yogurt",
           "quantity": {
-            "min": 200,
-            "max": 200,
-            "unit": "g"
+            "min": 4,
+            "max": 4,
+            "unit": "tbsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp Kashmiri chili powder",
-          "name": "Kashmiri chili powder",
-          "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tbsp"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "1 tsp turmeric powder",
-          "name": "turmeric powder",
+          "raw_text": "- 1 tsp chilli powder",
+          "name": "chilli powder",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tsp"
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp garam masala",
+          "raw_text": "- 1/2 tsp ground turmeric",
+          "name": "ground turmeric",
+          "quantity": {
+            "min": 0.5,
+            "max": 0.5,
+            "unit": "tsp",
+            "qualitative": null
+          },
+          "preparation": null,
+          "optional": false,
+          "component": null,
+          "sources": [
+            "description"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "raw_text": "- 1 tsp garam masala",
           "name": "garam masala",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp ginger paste",
+          "raw_text": "- 3 tsp ginger paste",
           "name": "ginger paste",
           "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tbsp"
+            "min": 3,
+            "max": 3,
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tbsp garlic paste",
+          "raw_text": "- 1 tsp garlic paste",
           "name": "garlic paste",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "tbsp"
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "Juice of 1 lemon",
-          "name": "lemon juice",
+          "raw_text": "- Juice of 1 lemon",
+          "name": "lemon",
           "quantity": {
             "min": 1,
             "max": 1,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": "juiced",
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "2 green chilies, sliced",
-          "name": "green chilies",
+          "raw_text": "- 2 green chillies",
+          "name": "green chillies",
           "quantity": {
             "min": 2,
             "max": 2,
-            "unit": "each"
+            "unit": "each",
+            "qualitative": null
           },
-          "preparation": "sliced",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 cinnamon stick",
-          "name": "cinnamon stick",
+          "raw_text": "- 2 cinnamon sticks",
+          "name": "cinnamon sticks",
           "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "each"
+            "min": 2,
+            "max": 2,
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "8 green cardamom pods, lightly crushed",
-          "name": "green cardamom pods",
+          "raw_text": "- 12 cardamom pod",
+          "name": "cardamom pods",
           "quantity": {
-            "min": 8,
-            "max": 8,
-            "unit": "each"
+            "min": 12,
+            "max": 12,
+            "unit": "each",
+            "qualitative": null
           },
-          "preparation": "lightly crushed",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1 tsp cumin seeds",
+          "raw_text": "- 2 tsp cumin seeds",
           "name": "cumin seeds",
           "quantity": {
-            "min": 1,
-            "max": 1,
-            "unit": "tsp"
+            "min": 2,
+            "max": 2,
+            "unit": "tsp",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "4 cloves",
-          "name": "cloves",
+          "raw_text": "- 6 cloves",
+          "name": "whole cloves",
           "quantity": {
-            "min": 4,
-            "max": 4,
-            "unit": "each"
+            "min": 6,
+            "max": 6,
+            "unit": "each",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
-          "confidence": 0.95
+          "confidence": 0.9
         },
         {
-          "raw_text": "1.5 tsp salt",
+          "raw_text": "- Salt to taste",
           "name": "salt",
           "quantity": {
-            "min": 1.5,
-            "max": 1.5,
-            "unit": "tsp"
+            "min": null,
+            "max": null,
+            "unit": null,
+            "qualitative": "to taste"
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1/2 cup fresh mint leaves, roughly chopped",
-          "name": "fresh mint leaves",
+          "raw_text": "- 1 bunch mint",
+          "name": "mint",
           "quantity": {
-            "min": 0.5,
-            "max": 0.5,
-            "unit": "cup"
+            "min": 1,
+            "max": 1,
+            "unit": "bunch",
+            "qualitative": null
           },
-          "preparation": "roughly chopped",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1/2 cup fresh coriander (cilantro) leaves, roughly chopped",
-          "name": "fresh coriander leaves",
+          "raw_text": "- 1 bunch coriander",
+          "name": "coriander",
           "quantity": {
-            "min": 0.5,
-            "max": 0.5,
-            "unit": "cup"
+            "min": 1,
+            "max": 1,
+            "unit": "bunch",
+            "qualitative": null
           },
-          "preparation": "roughly chopped",
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
         },
         {
-          "raw_text": "1/3 of the fried onions",
-          "name": "fried onions",
-          "quantity": {
-            "qualitative": "1/3 of prepared fried onions"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "500g aged basmati rice",
+          "raw_text": "- 1 kg aged basmati rice",
           "name": "aged basmati rice",
           "quantity": {
-            "min": 500,
-            "max": 500,
-            "unit": "g"
+            "min": 1,
+            "max": 1,
+            "unit": "kg",
+            "qualitative": null
           },
+          "preparation": null,
+          "optional": false,
+          "component": null,
           "sources": [
             "description"
           ],
           "confidence": 0.95
-        },
-        {
-          "raw_text": "3 large yellow onions, thinly sliced",
-          "name": "yellow onions",
-          "quantity": {
-            "min": 3,
-            "max": 3,
-            "unit": "each"
-          },
-          "preparation": "thinly sliced",
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "Vegetable oil for frying onions",
-          "name": "vegetable oil",
-          "quantity": {
-            "qualitative": "for frying"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.9
-        },
-        {
-          "raw_text": "1/4 cup warm milk mixed with pinch of saffron threads",
-          "name": "saffron milk",
-          "quantity": {
-            "min": 0.25,
-            "max": 0.25,
-            "unit": "cup"
-          },
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.95
-        },
-        {
-          "raw_text": "Dough seal: 1 cup flour + water",
-          "name": "flour and water dough",
-          "quantity": {
-            "qualitative": "for sealing pot"
-          },
-          "optional": true,
-          "sources": [
-            "description"
-          ],
-          "confidence": 0.9
         }
-      ]
+      ],
+      "equipment": []
     },
-    "missing": []
+    "missing": [
+      "servings"
+    ]
   }
 }
